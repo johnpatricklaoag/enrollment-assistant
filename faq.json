@@ -1,0 +1,125 @@
+
+[
+  {
+    "id": 1,
+    "category": "requirements",
+    "question": "What documents are needed for enrollment?",
+    "answer": "Incoming freshmen must submit their report card, birth certificate, two recent ID photos, and a completed enrollment form."
+  },
+  {
+    "id": 2,
+    "category": "requirements",
+    "question": "Can I enroll without my original report card?",
+    "answer": "You may submit a temporary copy first, but you must provide the original or an officially certified copy before the enrollment period ends."
+  },
+  {
+    "id": 3,
+    "category": "requirements",
+    "question": "Do transferees need extra documents?",
+    "answer": "Transferees must submit their transcript of records, certificate of transfer, birth certificate, and completed enrollment form."
+  },
+  {
+    "id": 4,
+    "category": "requirements",
+    "question": "Is an ID photo required?",
+    "answer": "Yes. Two recent ID photos are required for incoming freshmen."
+  },
+  {
+    "id": 5,
+    "category": "schedule",
+    "question": "When does enrollment start?",
+    "answer": "Enrollment for the first semester starts on June 1 and ends on June 30."
+  },
+  {
+    "id": 6,
+    "category": "schedule",
+    "question": "What are the registrar office hours?",
+    "answer": "The registrar office is open Monday to Friday, from 8:00 AM to 5:00 PM, excluding holidays."
+  },
+  {
+    "id": 7,
+    "category": "schedule",
+    "question": "Can I enroll after the deadline?",
+    "answer": "Late enrollment requests may be reviewed by the registrar. Approval is not guaranteed."
+  },
+  {
+    "id": 8,
+    "category": "schedule",
+    "question": "When do classes begin?",
+    "answer": "First-semester classes begin on July 6."
+  },
+  {
+    "id": 9,
+    "category": "payment",
+    "question": "Can I pay tuition in installments?",
+    "answer": "Yes. Tuition can be paid in four installments: upon enrollment, prelims, midterms, and finals."
+  },
+  {
+    "id": 10,
+    "category": "payment",
+    "question": "What payment methods are accepted?",
+    "answer": "Students may pay through the cashier using cash or an accepted bank transfer. Keep your receipt."
+  },
+  {
+    "id": 11,
+    "category": "payment",
+    "question": "Is the enrollment fee refundable?",
+    "answer": "Refund requests are reviewed by the accounting office according to school policy."
+  },
+  {
+    "id": 12,
+    "category": "payment",
+    "question": "Where can I get my official receipt?",
+    "answer": "You can get your official receipt from the cashier after your payment has been confirmed."
+  },
+  {
+    "id": 13,
+    "category": "scholarship",
+    "question": "Are scholarships available?",
+    "answer": "Yes. Bayanihan College offers academic and financial assistance scholarships to qualified students."
+  },
+  {
+    "id": 14,
+    "category": "scholarship",
+    "question": "What are the requirements for an academic scholarship?",
+    "answer": "Applicants must submit their latest grades, a completed scholarship form, and any additional documents requested by the scholarship office."
+  },
+  {
+    "id": 15,
+    "category": "scholarship",
+    "question": "How do I apply for financial assistance?",
+    "answer": "Get an application form from the scholarship office and submit it with proof of financial need."
+  },
+  {
+    "id": 16,
+    "category": "scholarship",
+    "question": "When will scholarship results be released?",
+    "answer": "Applicants will be informed of the results through their registered school email after the review process."
+  },
+  {
+    "id": 17,
+    "category": "registrar",
+    "question": "How can I request a certificate of enrollment?",
+    "answer": "Submit a request form to the registrar and present your student ID or another accepted proof of identity."
+  },
+  {
+    "id": 18,
+    "category": "registrar",
+    "question": "How can I correct an error in my student records?",
+    "answer": "Contact the registrar and provide supporting documents showing the correct information."
+  },
+  {
+    "id": 19,
+    "category": "registrar",
+    "question": "How can I contact the registrar?",
+    "answer": "Visit the registrar office during office hours or send an inquiry through the school's official communication channel."
+  },
+  {
+    "id": 20,
+    "category": "registrar",
+    "question": "How long does a document request take?",
+    "answer": "Document processing usually takes three to five working days, depending on the type of request."
+  }
+  
+]
+

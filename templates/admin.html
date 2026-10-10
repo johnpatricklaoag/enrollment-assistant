@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enrollment Helpdesk Admin</title>
+  <style>
+    :root { color-scheme: light; --navy:#10243a; --cyan:#14b8c8; --muted:#64748b; --bg:#f3f7fb; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial, sans-serif; color:#172033; background:var(--bg); }
+    header { background:var(--navy); color:white; padding:24px 18px; }
+    header .wrap, main { max-width:1000px; margin:auto; }
+    h1 { margin:0 0 7px; font-size:24px; }
+    header p { margin:0; color:#dbeafe; }
+    main { padding:22px 16px 40px; }
+    .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:18px; }
+    a { color:#087f8c; font-weight:bold; text-decoration:none; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:14px; }
+    .card { background:white; padding:18px; border-radius:14px; box-shadow:0 3px 14px #10243a0d; }
+    .label { color:var(--muted); font-size:13px; margin-bottom:9px; }
+    .number { font-size:30px; font-weight:700; color:var(--navy); overflow-wrap:anywhere; }
+    h2 { font-size:18px; margin:24px 0 12px; }
+    table { width:100%; border-collapse:collapse; background:white; border-radius:12px; overflow:hidden; }
+    th, td { text-align:left; padding:13px 15px; border-bottom:1px solid #e7edf3; }
+    th { background:#e8f5f7; }
+    .empty { color:var(--muted); padding:18px; background:white; border-radius:12px; }
+    .note { font-size:13px; color:var(--muted); margin-top:16px; }
+    @media (max-width:480px) { h1{font-size:21px} .number{font-size:25px} th,td{padding:11px 10px} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Bayanihan College Helpdesk</h1>
+      <p>Admin dashboard · Usage and feedback overview</p>
+    </div>
+  </header>
+  <main>
+    <div class="top">
+      <strong>Dashboard statistics</strong>
+      <a href="/">← Back to chatbot</a>
+    </div>
+
+    <section class="grid">
+      <div class="card">
+        <div class="label">Messages logged</div>
+        <div class="number">{{ total_messages }}</div>
+      </div>
+      <div class="card">
+        <div class="label">Thumbs up</div>
+        <div class="number">{{ up_count }}</div>
+      </div>
+      <div class="card">
+        <div class="label">Thumbs down</div>
+        <div class="number">{{ down_count }}</div>
+      </div>
+      <div class="card">
+        <div class="label">Positive ratings</div>
+        <div class="number">{{ positive_percent }}%</div>
+      </div>
+    </section>
+
+    <h2>Predicted question categories</h2>
+    {% if category_counts %}
+      <table>
+        <thead><tr><th>Category</th><th>Message count</th></tr></thead>
+        <tbody>
+          {% for category, count in category_counts.items() %}
+          <tr><td>{{ category }}</td><td>{{ count }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+      <div class="empty">No chat statistics yet. Ask a question in the chatbot first.</div>
+    {% endif %}
+
+    <p class="note">This dashboard reads local log files. On a hosted service, local files may reset after redeploy/restart unless persistent storage or a database is configured. Protect this page before using it with real student data.</p>
+  </main>
+</body>
+</html>

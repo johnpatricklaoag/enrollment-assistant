@@ -1,0 +1,52 @@
+
+question,category
+"What documents are needed for enrollment?",requirements
+"Anong requirements para sa freshmen?",requirements
+"Do I need my birth certificate?",requirements
+"Kailangan ba ng report card?",requirements
+"What documents do transferees need?",requirements
+"Required ba ang ID picture?",requirements
+"Can I enroll without my original report card?",requirements
+"Ano ang kailangan kong ipasa?",requirements
+"Do freshmen need an enrollment form?",requirements
+"Anong documents ang kailangan sa admission?",requirements
+"When does enrollment start?",schedule
+"Kailan ang enrollment?",schedule
+"What are the registrar office hours?",schedule
+"Anong oras bukas ang registrar?",schedule
+"When do classes begin?",schedule
+"Kailan magsisimula ang klase?",schedule
+"Can I enroll after the deadline?",schedule
+"Hanggang kailan ang enrollment?",schedule
+"What time does the school office close?",schedule
+"Kailan ang last day ng enrollment?",schedule
+"Can I pay tuition in installments?",payment
+"Pwede bang hulugan ang tuition?",payment
+"What payment methods are accepted?",payment
+"Saan ako magbabayad ng tuition?",payment
+"Is the enrollment fee refundable?",payment
+"Pwede ba akong magbayad sa bank transfer?",payment
+"Where can I get my official receipt?",payment
+"Saan kukunin ang resibo?",payment
+"When is the tuition payment due?",payment
+"Magkano ang installment payment?",payment
+"Are scholarships available?",scholarship
+"May scholarship ba sa school?",scholarship
+"How do I apply for financial assistance?",scholarship
+"Paano mag-apply ng scholarship?",scholarship
+"What are the academic scholarship requirements?",scholarship
+"Ano ang requirements sa scholarship?",scholarship
+"When will scholarship results be released?",scholarship
+"Kailan lalabas ang scholarship results?",scholarship
+"Can transferees apply for scholarships?",scholarship
+"Sino ang qualified sa financial assistance?",scholarship
+"How can I request a certificate of enrollment?",registrar
+"Paano kumuha ng certificate of enrollment?",registrar
+"How can I correct an error in my student records?",registrar
+"Saan puwedeng magtanong sa registrar?",registrar
+"How long does a document request take?",registrar
+"Gaano katagal ang pagkuha ng school documents?",registrar
+"How can I contact the registrar?",registrar
+"Paano makipag-ugnayan sa registrar?",registrar
+"Can I request a school record?",registrar
+"Saan kukuha ng enrollment certification?",registrar
